@@ -1,0 +1,77 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "openexif", "OpenExif.vcproj", "{EE6663B2-EE37-4447-97F8-F151729C015C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{53D1036F-7871-4FC7-93AF-830048EAE078} = {53D1036F-7871-4FC7-93AF-830048EAE078}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "test.vcproj", "{D67DDA8D-C247-4E4F-B794-FE0F498B09B0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EE6663B2-EE37-4447-97F8-F151729C015C} = {EE6663B2-EE37-4447-97F8-F151729C015C}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExifTagDump", "ExifTagDump.vcproj", "{D67DDA8D-C247-4E4F-B794-FE0F498B09B3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EE6663B2-EE37-4447-97F8-F151729C015C} = {EE6663B2-EE37-4447-97F8-F151729C015C}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AppSegDump", "AppSegDump.vcproj", "{A0C24C4B-988C-47FC-AC76-357679A0AF4A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EE6663B2-EE37-4447-97F8-F151729C015C} = {EE6663B2-EE37-4447-97F8-F151729C015C}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenExifJpeg", "OpenExifJpeg.vcproj", "{53D1036F-7871-4FC7-93AF-830048EAE078}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug_DLL|Win32 = Debug_DLL|Win32
+		Debug|Win32 = Debug|Win32
+		Release_DLL|Win32 = Release_DLL|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE6663B2-EE37-4447-97F8-F151729C015C}.Debug_DLL|Win32.ActiveCfg = Debug_DLL|Win32
+		{EE6663B2-EE37-4447-97F8-F151729C015C}.Debug_DLL|Win32.Build.0 = Debug_DLL|Win32
+		{EE6663B2-EE37-4447-97F8-F151729C015C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EE6663B2-EE37-4447-97F8-F151729C015C}.Debug|Win32.Build.0 = Debug|Win32
+		{EE6663B2-EE37-4447-97F8-F151729C015C}.Release_DLL|Win32.ActiveCfg = Release_DLL|Win32
+		{EE6663B2-EE37-4447-97F8-F151729C015C}.Release_DLL|Win32.Build.0 = Release_DLL|Win32
+		{EE6663B2-EE37-4447-97F8-F151729C015C}.Release|Win32.ActiveCfg = Release|Win32
+		{EE6663B2-EE37-4447-97F8-F151729C015C}.Release|Win32.Build.0 = Release|Win32
+		{D67DDA8D-C247-4E4F-B794-FE0F498B09B0}.Debug_DLL|Win32.ActiveCfg = Debug_DLL|Win32
+		{D67DDA8D-C247-4E4F-B794-FE0F498B09B0}.Debug_DLL|Win32.Build.0 = Debug_DLL|Win32
+		{D67DDA8D-C247-4E4F-B794-FE0F498B09B0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D67DDA8D-C247-4E4F-B794-FE0F498B09B0}.Debug|Win32.Build.0 = Debug|Win32
+		{D67DDA8D-C247-4E4F-B794-FE0F498B09B0}.Release_DLL|Win32.ActiveCfg = Release_DLL|Win32
+		{D67DDA8D-C247-4E4F-B794-FE0F498B09B0}.Release_DLL|Win32.Build.0 = Release_DLL|Win32
+		{D67DDA8D-C247-4E4F-B794-FE0F498B09B0}.Release|Win32.ActiveCfg = Release|Win32
+		{D67DDA8D-C247-4E4F-B794-FE0F498B09B0}.Release|Win32.Build.0 = Release|Win32
+		{D67DDA8D-C247-4E4F-B794-FE0F498B09B3}.Debug_DLL|Win32.ActiveCfg = Debug_DLL|Win32
+		{D67DDA8D-C247-4E4F-B794-FE0F498B09B3}.Debug_DLL|Win32.Build.0 = Debug_DLL|Win32
+		{D67DDA8D-C247-4E4F-B794-FE0F498B09B3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D67DDA8D-C247-4E4F-B794-FE0F498B09B3}.Debug|Win32.Build.0 = Debug|Win32
+		{D67DDA8D-C247-4E4F-B794-FE0F498B09B3}.Release_DLL|Win32.ActiveCfg = Release_DLL|Win32
+		{D67DDA8D-C247-4E4F-B794-FE0F498B09B3}.Release_DLL|Win32.Build.0 = Release_DLL|Win32
+		{D67DDA8D-C247-4E4F-B794-FE0F498B09B3}.Release|Win32.ActiveCfg = Release|Win32
+		{D67DDA8D-C247-4E4F-B794-FE0F498B09B3}.Release|Win32.Build.0 = Release|Win32
+		{A0C24C4B-988C-47FC-AC76-357679A0AF4A}.Debug_DLL|Win32.ActiveCfg = Debug|Win32
+		{A0C24C4B-988C-47FC-AC76-357679A0AF4A}.Debug_DLL|Win32.Build.0 = Debug|Win32
+		{A0C24C4B-988C-47FC-AC76-357679A0AF4A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A0C24C4B-988C-47FC-AC76-357679A0AF4A}.Debug|Win32.Build.0 = Debug|Win32
+		{A0C24C4B-988C-47FC-AC76-357679A0AF4A}.Release_DLL|Win32.ActiveCfg = Release|Win32
+		{A0C24C4B-988C-47FC-AC76-357679A0AF4A}.Release_DLL|Win32.Build.0 = Release|Win32
+		{A0C24C4B-988C-47FC-AC76-357679A0AF4A}.Release|Win32.ActiveCfg = Release|Win32
+		{A0C24C4B-988C-47FC-AC76-357679A0AF4A}.Release|Win32.Build.0 = Release|Win32
+		{53D1036F-7871-4FC7-93AF-830048EAE078}.Debug_DLL|Win32.ActiveCfg = Debug|Win32
+		{53D1036F-7871-4FC7-93AF-830048EAE078}.Debug_DLL|Win32.Build.0 = Debug|Win32
+		{53D1036F-7871-4FC7-93AF-830048EAE078}.Debug|Win32.ActiveCfg = Debug|Win32
+		{53D1036F-7871-4FC7-93AF-830048EAE078}.Debug|Win32.Build.0 = Debug|Win32
+		{53D1036F-7871-4FC7-93AF-830048EAE078}.Release_DLL|Win32.ActiveCfg = Release|Win32
+		{53D1036F-7871-4FC7-93AF-830048EAE078}.Release_DLL|Win32.Build.0 = Release|Win32
+		{53D1036F-7871-4FC7-93AF-830048EAE078}.Release|Win32.ActiveCfg = Release|Win32
+		{53D1036F-7871-4FC7-93AF-830048EAE078}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

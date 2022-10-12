@@ -1,0 +1,2 @@
+add_executable(exifTagDump ExifTagDump.cpp)
+target_link_libraries(exifTagDump Openexif)

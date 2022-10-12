@@ -1,0 +1,3 @@
+add_subdirectory(AppSegDump)
+add_subdirectory(CreateExif)
+add_subdirectory(ExifTagDump)

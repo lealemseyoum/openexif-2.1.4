@@ -1,0 +1,2 @@
+add_executable(createExif CreateExif.cpp)
+target_link_libraries(createExif Openexif)

@@ -1,0 +1,11 @@
+src/OpenExifJpeg/OpenExif_jchuff.h
+src/OpenExifJpeg/OpenExif_jconfig.h
+src/OpenExifJpeg/OpenExif_jdct.h
+src/OpenExifJpeg/OpenExif_jdhuff.h
+src/OpenExifJpeg/OpenExif_jerror.h
+src/OpenExifJpeg/OpenExif_jinclude.h
+src/OpenExifJpeg/OpenExif_jmemsys.h
+src/OpenExifJpeg/OpenExif_jmorecfg.h
+src/OpenExifJpeg/OpenExif_jpegint.h
+src/OpenExifJpeg/OpenExifJpegLib.h
+src/OpenExifJpeg/OpenExif_jversion.h

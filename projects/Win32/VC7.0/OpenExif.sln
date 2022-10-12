@@ -1,0 +1,48 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "openexif", "OpenExif.vcproj", "{EE6663B2-EE37-4447-97F8-F151729C015C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "test.vcproj", "{D67DDA8D-C247-4E4F-B794-FE0F498B09B0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExifTagDump", "ExifTagDump.vcproj", "{D67DDA8D-C247-4E4F-B794-FE0F498B09B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Debug_DLL
+		ConfigName.2 = Release
+		ConfigName.3 = Release_DLL
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+		{D67DDA8D-C247-4E4F-B794-FE0F498B09B0}.0 = {EE6663B2-EE37-4447-97F8-F151729C015C}
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{EE6663B2-EE37-4447-97F8-F151729C015C}.Debug.ActiveCfg = Debug|Win32
+		{EE6663B2-EE37-4447-97F8-F151729C015C}.Debug.Build.0 = Debug|Win32
+		{EE6663B2-EE37-4447-97F8-F151729C015C}.Debug_DLL.ActiveCfg = Debug_DLL|Win32
+		{EE6663B2-EE37-4447-97F8-F151729C015C}.Debug_DLL.Build.0 = Debug_DLL|Win32
+		{EE6663B2-EE37-4447-97F8-F151729C015C}.Release.ActiveCfg = Release|Win32
+		{EE6663B2-EE37-4447-97F8-F151729C015C}.Release.Build.0 = Release|Win32
+		{EE6663B2-EE37-4447-97F8-F151729C015C}.Release_DLL.ActiveCfg = Release_DLL|Win32
+		{EE6663B2-EE37-4447-97F8-F151729C015C}.Release_DLL.Build.0 = Release_DLL|Win32
+		{D67DDA8D-C247-4E4F-B794-FE0F498B09B0}.Debug.ActiveCfg = Debug|Win32
+		{D67DDA8D-C247-4E4F-B794-FE0F498B09B0}.Debug.Build.0 = Debug|Win32
+		{D67DDA8D-C247-4E4F-B794-FE0F498B09B0}.Debug_DLL.ActiveCfg = Debug_DLL|Win32
+		{D67DDA8D-C247-4E4F-B794-FE0F498B09B0}.Debug_DLL.Build.0 = Debug_DLL|Win32
+		{D67DDA8D-C247-4E4F-B794-FE0F498B09B0}.Release.ActiveCfg = Release|Win32
+		{D67DDA8D-C247-4E4F-B794-FE0F498B09B0}.Release.Build.0 = Release|Win32
+		{D67DDA8D-C247-4E4F-B794-FE0F498B09B0}.Release_DLL.ActiveCfg = Release_DLL|Win32
+		{D67DDA8D-C247-4E4F-B794-FE0F498B09B0}.Release_DLL.Build.0 = Release_DLL|Win32
+		{D67DDA8D-C247-4E4F-B794-FE0F498B09B3}.Debug.ActiveCfg = Debug|Win32
+		{D67DDA8D-C247-4E4F-B794-FE0F498B09B3}.Debug.Build.0 = Debug|Win32
+		{D67DDA8D-C247-4E4F-B794-FE0F498B09B3}.Debug_DLL.ActiveCfg = Debug_DLL|Win32
+		{D67DDA8D-C247-4E4F-B794-FE0F498B09B3}.Debug_DLL.Build.0 = Debug_DLL|Win32
+		{D67DDA8D-C247-4E4F-B794-FE0F498B09B3}.Release.ActiveCfg = Release|Win32
+		{D67DDA8D-C247-4E4F-B794-FE0F498B09B3}.Release.Build.0 = Release|Win32
+		{D67DDA8D-C247-4E4F-B794-FE0F498B09B3}.Release_DLL.ActiveCfg = Release_DLL|Win32
+		{D67DDA8D-C247-4E4F-B794-FE0F498B09B3}.Release_DLL.Build.0 = Release_DLL|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
