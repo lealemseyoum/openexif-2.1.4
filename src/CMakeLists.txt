@@ -85,35 +85,12 @@ target_include_directories(
     $<INSTALL_INTERFACE:${CMAKE_INSTALL_INCLUDEDIR}/OpenExifJpeg>
 ) 
 
-#Install headers, libraries and executables
-set(${PROJECT_NAME}_INSTALL_CMAKEDIR ${CMAKE_INSTALL_LIBDIR}/cmake/${PROJECT_NAME} CACHE PATH "Installation directory for config-file package cmake files")
-
+# Install targets
 install(
     TARGETS ${PROJECT_NAME}
-    EXPORT ${PROJECT_NAME}_lib_export
-    #INCLUDES DESTINATION ${CMAKE_INSTALL_INCLUDEDIR}
-)
-
-# Export and install package configuration file
-install(
-    EXPORT ${PROJECT_NAME}_lib_export
-    FILE ${PROJECT_NAME}Config.cmake
-    NAMESPACE ${PROJECT_NAME}:: 
-    DESTINATION ${${PROJECT_NAME}_INSTALL_CMAKEDIR}
-)
-
-# Create package version configuration file
-include(CMakePackageConfigHelpers)
-write_basic_package_version_file(
-    "${PROJECT_NAME}-config-version.cmake"
-    COMPATIBILITY   SameMajorVersion
-)
-
-# Install package version 
-install(
-    FILES 
-    "${CMAKE_CURRENT_BINARY_DIR}/${PROJECT_NAME}-config-version.cmake"
-    DESTINATION ${${PROJECT_NAME}_INSTALL_CMAKEDIR}
+    EXPORT ${PROJECT_NAME}Targets
+    INCLUDES 
+        DESTINATION ${CMAKE_INSTALL_INCLUDEDIR}
 )
 
 # Install header files or include directories
